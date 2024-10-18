@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.count{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 14px;
+    width: fit-content;
+}
+
+#COUNTER{
+    font-size: 3rem;
+    
+}
+
+#number{
+    font-size: 6rem;
+}
+
+p{
+    animation: color 2s infinite alternate ease-in-out;
+    
+}
+
+@keyframes color {
+    0%{color: rgb(145, 196, 240);}
+    25%{color: red;}
+    50%{color: violet;}
+    75%{color: blue;}
+    100%{color: greenyellow;}
+    /* 0%{
+        background-position: 0% 50%;
+    }
+    25%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    } */
+
+}
